@@ -1,0 +1,43 @@
+In organic chemistry, an alkane, or paraffin 
+(a historical name that also has other meanings), 
+is an acyclic saturated hydrocarbon. 
+In other words, an alkane consists of hydrogen and carbon atoms arranged in a 
+tree structure in which all the carbon–carbon bonds are single.
+Alkanes have the general chemical formula CnH2n+2.
+
+IUPAC defines alkanes as "acyclic branched or unbranched hydrocarbons 
+having the general formula CnH2n+2, and therefore consisting entirely 
+of hydrogen atoms and saturated carbon atoms". 
+
+In an alkane, each carbon atom is sp3-hybridized with 4 sigma bonds 
+(either C–C or C–H), and each hydrogen atom is joined to one of the 
+carbon atoms (in a C–H bond). The longest series of linked carbon atoms 
+in a molecule is known as its carbon skeleton or carbon backbone. The 
+number of carbon atoms may be considered as the size of the alkane. 
+
+Alkanes with more than three carbon atoms can be arranged in various ways, 
+forming structural isomers. The simplest isomer of an alkane is the one in 
+which the carbon atoms are arranged in a single chain with no branches. This 
+isomer is sometimes called the n-isomer (n for "normal", although it is not 
+necessarily the most common). However the chain of carbon atoms may also be 
+branched at one or more points. The number of possible isomers increases rapidly 
+with the number of carbon atoms.
+
+Branched alkanes can be chiral. For example, 3-methylhexane and its higher 
+homologues are chiral due to their stereogenic center at carbon atom number 3.
+
+The IUPAC nomenclature (systematic way of naming compounds) for alkanes is based 
+on identifying hydrocarbon chains. Unbranched, saturated hydrocarbon chains are 
+named systematically with a Greek numerical prefix denoting the number of carbons 
+and the suffix "-ane".
+
+In 1866, August Wilhelm von Hofmann suggested systematizing nomenclature by using 
+the whole sequence of vowels a, e, i, o and u to create suffixes -ane, -ene, -ine (or -yne),
+ -one, -une, for the hydrocarbons CnH2n+2, CnH2n, CnH2n−2, CnH2n−4, CnH2n−6. Now, 
+the first three name hydrocarbons with single, double and triple bonds; "-one" 
+represents a ketone; "-ol" represents an alcohol or OH group; "-oxy-" means an ether and 
+refers to oxygen between two carbons, so that methoxymethane is the IUPAC name for 
+dimethyl ether.
+
+ 
+

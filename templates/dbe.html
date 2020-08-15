@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<body>
+<h2 align = "center">DBE Calculator</h2>
+{% for dbe in dbe %}
+{% if dbe.Dbe == 0 %}
+<h3>The DBE is:   {{ dbe.Dbe }}</h3><br/>
+<h3>The Possibilities are:   {{ dbe.Possibilities }}</h3>
+{% endif %}
+{% if dbe.Dbe == 1 %}
+<h3>The DBE is:   {{ dbe.Dbe }}</h3><br/>
+<h3>The Possibilities are:   {{ dbe.Possibilities }}</h3>
+{% endif %}
+{% if dbe.Dbe == 2 %}
+<h3>The DBE is:   {{ dbe.Dbe }}</h3><br/>
+<h3>The Possibilities are:   {{ dbe.Possibilities }}</h3>
+{% endif %}
+{% if dbe.Dbe == 3 %}
+<h3>The DBE is:   {{ dbe.Dbe }}</h3><br/>
+<h3>The Possibilities are:   {{ dbe.Possibilities }}</h3>
+{% endif %}
+{% if dbe.Dbe == 4 %}
+<h3>The DBE is:   {{ dbe.Dbe }}</h3><br/>
+<h3>The Possibilities are:   {{ dbe.Possibilities }}</h3>
+{% endif %}
+{% if dbe.Dbe == 5 %}
+<h3>{{ dbe.Possibilities }}</h3> 
+{% endif %}
+{% if dbe.Dbe == -1 %}
+<h3>{{ dbe.Possibilities }}</h3>
+{% endif %}
+<form method = "get" action = "{% url 'home' %}">{% csrf_token %}
+<button type = "Submit" >Go To Home and Search for isomers of alkanes </button>
+</form>
+{% endfor %}
+</body>
+
+{% endblock content %}

@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<marquee>Welcome to Alkane Finder . Here you can find the various isomers of different alkanes</marquee>
+
+
+<h2>The Theory</h2>
+<p>
+In chemistry, organic compounds are generally any chemical compounds that contain carbon-hydrogen bonds. 
+Due to carbon's ability to catenate (form chains with other carbon atoms), millions of organic compounds are known. 
+The study of the properties, reactions, and syntheses of organic compounds comprises the discipline known as organic chemistry.
+</p>
+<br><br><br>
+<p>
+In organic chemistry, an alkane, or paraffin (a historical name that also has other meanings), 
+is an acyclic saturated hydrocarbon.
+In other words, an alkane consists of hydrogen and carbon atoms arranged in a tree structure 
+in which all the carbon–carbon bonds are single.
+
+Alkanes have the general chemical formula CnH2n+2.
+</p>
+<br/><br/>
+{% if user.is_authenticated %}
+<form action = "/calculate_dbe/" method = "post">{% csrf_token %}
+<input type = "text" name = "cmpnd">
+<button type = "submit" >Find DBE</button>
+</form>
+<br/>
+<form method = "post" action = "/isomers/">{% csrf_token %}
+<input type = "text" name = "cmpd">
+<button type = "Submit">Check the isomers of the compound </button>
+</form>
+{% else %}
+Please Login to Access The DBE Finder.
+<br/>
+Please Login to Access The Alkane Isomer Finder.
+{% endif %}
+<img src = "{% static "alkanehome4.jpg" %}" alt = "Some Organic Compounds" height = "200" width = "200" align = "right">
+<img src = "{% static "alkanehome1.jpg" %}" alt ="Some Alkanes" width = 200 height = 200 align = "right">
+<p class="para">
+Some Alkanes in line formation.
+</p> 
+{% endblock content %}
+

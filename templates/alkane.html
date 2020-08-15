@@ -1,0 +1,98 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+{% for a in alk %}
+{% if a.Srno == 1 %}
+<h3> The Alkanes of {{ a.Primary_name }} are : </h3>
+{% for i in a.isomers|split:"#" %}
+<h4> {{ i }} </h4>
+{% endfor %}
+
+{% elif a.Srno == 2 %}
+<h3> The Alkanes of {{ a.Primary_name }} are : </h3>
+{% for i in a.isomers|split:"#" %}
+<h4> {{ i }} </h4>
+{% endfor %}
+
+{% elif a.Srno == 3 %}
+<h3> The Alkanes of {{ a.Primary_name }} are : </h3>
+{% for i in a.isomers|split:"#" %}
+<h4> {{ i }} </h4>
+{% endfor %}
+
+{% elif a.Srno == 4 %}
+<h3> The Alkanes of {{ a.Primary_name }} are : </h3>
+{% for i in a.isomers|split:"#" %}
+<h4> {{ i }} </h4>
+{% endfor %}
+
+{% elif a.Srno == 5 %}
+<h3> The Alkanes of {{ a.Primary_name }} are : </h3>
+{% for i in a.isomers|split:"#" %}
+<h4> {{ i }} </h4>
+{% endfor %}
+
+{% elif a.Srno == 6 %}
+<h3> The Alkanes of {{ a.Primary_name }} are : </h3>
+{% for i in a.isomers|split:"#" %}
+<h4> {{ i }} </h4>
+{% endfor %}
+
+{% elif a.Srno == 7 %}
+<h3> The Alkanes of {{ a.Primary_name }} are : </h3>
+{% for i in a.isomers|split:"#" %}
+<h4> {{ i }} </h4>
+{% endfor %}
+
+{% elif a.Srno == 8 %}
+<h3> The Alkanes of {{ a.Primary_name }} are : </h3>
+{% for i in a.isomers|split:"#" %}
+<h4> {{ i }} </h4>
+{% endfor %}
+
+{% elif a.Srno == 9 %}
+<h3> The Alkanes of {{ a.Primary_name }} are : </h3>
+{% for i in a.isomers|split:"#" %}
+<h4> {{ i }} </h4>
+{% endfor %}
+
+{% elif a.Srno == 10 %}
+<h3> The Alkanes of {{ a.Primary_name }} are : </h3>
+{% for i in a.isomers|split:"#" %}
+<h4> {{ i }} </h4>
+{% endfor %}
+
+{% elif a.Srno == 11 %}
+<h3> The Alkanes of {{ a.Primary_name }} are : </h3>
+{% for i in a.isomers|split:"#" %}
+<h4> {{ i }} </h4>
+{% endfor %}
+
+{% elif a.Srno == 12 %}
+<h3> The Alkanes of {{ a.Primary_name }} are : </h3>
+{% for i in a.isomers|split:"#" %}
+<h4> {{ i }} </h4>
+{% endfor %}
+
+{% elif a.Srno == 13 %}
+<h3> The Alkanes of {{ a.Primary_name }} are : </h3>
+{% for i in a.isomers|split:"#" %}
+<h4> {{ i }} </h4>
+{% endfor %}
+
+{% elif a.Srno == 14 %}
+<h3> The Alkanes of {{ a.Primary_name }} are : </h3>
+{% for i in a.isomers|split:"#" %}
+<h4> {{ i }} </h4>
+{% endfor %}
+
+{% elif a.Srno == 15 %}
+<h3> This not an alkane or we do not have the alkane's isomers.
+     We are sorry for the inconvinience.  </h3>
+
+{% endif %}
+{% endfor %}
+<a href = "{% url "home" %}"><button type = "Submit" >Go to Home To Check Isomers of Other Alkanes</button></a>
+{% endblock content %}
